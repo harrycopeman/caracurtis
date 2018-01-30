@@ -17,7 +17,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 ::-moz-selection { background: #e4e5ec; /* Firefox */ }
 
-body { background-color: #FDFBF8; }
+body { background: #F7E9E9; margin-bottom: 100px; }
 
 /*!
 Animate.css - http://daneden.me/animate
@@ -587,7 +587,7 @@ Copyright (c) 2013 Daniel Eden
 img { width: 100%; height: auto; }
 
 /*Container*/
-.span { width: 100%; min-width: 260px; max-width: 750px; margin: 0 auto; padding-left: 40px; padding-right: 40px; }
+.span { width: 100%; min-width: 260px; max-width: 1100px; margin: 0 auto; padding-left: 40px; padding-right: 40px; }
 
 @media (max-width: 970px) { .span { padding-right: 0; padding-left: 0; } }
 /*Clears Childern Elements*/
@@ -596,7 +596,7 @@ img { width: 100%; height: auto; }
 .spancase:after { content: ""; display: table; clear: both; }
 
 /*Floats and Pads*/
-[class*='loop'] { position: relative; float: left; padding: 0px; }
+[class*='loop'] { position: relative; float: left; padding: 30px; }
 
 /*The Grid*/
 .loop-1 { width: 9.1%; }
@@ -623,14 +623,14 @@ img { width: 100%; height: auto; }
 
 .loop-12 { width: 100%; }
 
-@media (max-width: 800px) { .loop-1, .loop-2, .loop-3, .loop-4, .loop-5, .loop-6, .loop-7, .loop-8, .loop-9, .loop-10, .loop-11, .loop-12 { width: 100%; } }
+@media (max-width: 700px) { .loop-1, .loop-2, .loop-3, .loop-4, .loop-5, .loop-6, .loop-7, .loop-8, .loop-9, .loop-10, .loop-11, .loop-12 { width: 100%; } }
 /*
 .item .span { width:100%; min-width:260px; max-width: 800px; margin: 0 auto;
 }
 */
 .controls .span { width: 100%; min-width: 80%; max-width: 0px; margin: 0 auto; }
 
-/* 
+/* s
 
 
 All things Typography 
@@ -641,100 +641,35 @@ All things Typography
 
 
 -- */
-p, h2 { font-size: 20px; line-height: 1.5; font-family: "acumin-pro", "helvetica", sans-serif; padding-left: 20px; padding-right: 20px; }
+body { font-family: "futura", "helvetica", sans-serif; }
 
-h2 { font-weight: 700; margin-bottom: 10px; margin-top: 30px; }
+p { font-size: 20px; line-height: 1.5; }
+
+h1 { font-size: 40px; font-weight: 700; line-height: 1.4; }
+
+h2 { font-weight: 700; font-size: 20px; margin-bottom: 40px; margin-top: 30px; color: #FF8A8A; }
 
 a { color: inherit; text-decoration: none; border-bottom: 4px solid #FDE4E9; }
 
 a:hover { color: #F27490; }
 
-/* 
+nav { padding-bottom: 40px; }
+nav ul li { display: inline-block; font-family: "futura", "helvetica", sans-serif; font-size: 14px; text-transform: uppercase; padding-right: 50px; opacity: 0.7; }
+nav ul #active { opacity: 1; }
 
-
-All things Layout 
-	
-	- Image Widths
-	- Text Widths
-
--- */
-.navigation { position: absolute; width: 100%; z-index: 5; background: rgba(247, 245, 243, 0.75); height: 80px; }
-.navigation h1 { cursor: pointer; color: white; font-family: "acumin-pro", "helvetica", sans-serif; font-size: 20px; position: absolute; left: 40px; top: 20px; }
-.navigation ul { position: absolute; right: 30px; top: 20px; }
-.navigation ul li { display: inline-block; color: white; font-family: "acumin-pro", "helvetica", sans-serif; font-size: 20px; padding-left: 20px; padding-right: 20px; }
-
-.dark h1, .dark li { color: #32393B !important; }
-
-@media only screen and (max-width: 800px) { .navigation { height: 80px; }
-  .navigation ul { right: 14px; }
-  .navigation ul li { font-size: 16px; padding-top: 4px; }
-  .navigation h1 { left: 30px; border-bottom: none; } }
 footer { margin-top: 60px; height: 60px; background: #F7F5F3; }
 footer ul { text-align: center; }
-footer li { display: inline-block; padding-right: 20px; padding-left: 20px; font-family: "acumin-pro", "helvetica", sans-serif; color: #9399A6; font-size: 13px; margin-top: 18px; }
+footer li { display: inline-block; padding-right: 20px; padding-left: 20px; font-family: "futura", "helvetica", sans-serif; color: #9399A6; font-size: 13px; margin-top: 18px; }
 footer a { color: inherit; border-bottom: 1px solid #DBBA88; text-decoration: none; }
 footer a:hover { color: #32393B; }
 
-.full { margin-top: 100px; margin-bottom: 100px; }
+.intro { max-width: 580px; margin-top: 100px; }
 
-.city-header { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-.city-header h1 { margin-top: 200px; font-family: "acumin-pro", "helvetica", sans-serif; text-align: center; font-size: 60px; font-weight: 500; margin-bottom: 160px; }
-.city-header #black { color: #32393B; }
-@media only screen and (max-width: 800px) { .city-header h1 { font-size: 40px; margin-top: 120px; margin-bottom: 90px; } }
+.work-container { width: 100%; background: #FACACA; }
+.work-container img { padding: 20px; margin-bottom: -8px; }
 
-.item { margin-bottom: -20px; }
-.item .item-name { font-family: "acumin-pro", "helvetica", sans-serif; color: #32393B; font-size: 28px; margin-bottom: 5px; padding-right: 20px; line-height: 1.3; font-weight: 500; color: white; position: absolute; bottom: 70px; left: 28px; }
-.item ul { position: absolute; bottom: 16px; left: 28px; }
-.item ul li { margin-right: 40px; font-size: 16px; font-family: "leitura-news", serif; color: white; font-style: italic; }
-.item ul a { text-decoration: none; }
-.item ul .link-icon { background-image: url(../imgs/link.svg); background-position: left center; background-repeat: no-repeat; padding-top: 0px; padding-left: 26px; /* Or size of icon + spacing */ }
-.item ul .location-icon { background-image: url(../imgs/location.svg); background-position: left center; background-repeat: no-repeat; padding-top: 0px; padding-left: 26px; /* Or size of icon + spacing */ }
-.item ul a:hover { opacity: 0.7; }
-.item .more { position: absolute; right: 4px; bottom: 16px; text-indent: -9999px; background-image: url(../imgs/instagram.svg); opacity: 0.5; background-position: left center; background-repeat: no-repeat; }
-.item .more:hover { opacity: 1; }
-.item .location { background: #DBBA88 no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; opacity: 1; }
-.item .black:before { -moz-transition: opacity 300ms ease-in-out; -o-transition: opacity 300ms ease-in-out; -webkit-transition: opacity 300ms ease-in-out; transition: opacity 300ms ease-in-out; background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 43%, #000000 100%); }
+.work-title { font-size: 20px; font-weight: 700; margin-bottom: 15px; }
 
-.controls { margin: 60px auto 80px !important; }
-.controls .label { font-family: "leitura-news", serif; font-style: italic; color: #9399A6; font-size: 12px; margin-bottom: -5px; }
-.controls p { font-family: "leitura-news", serif; color: #32393B; font-size: 18px; }
-.controls p:hover { opacity: 0.7; }
-.controls a { text-decoration: none; }
-.controls #right { text-align: right; }
-.controls .label:hover { opacity: 1; }
-.controls .loop-6 { width: 50%; }
+#two { margin-top: 150px; }
 
-.location { width: 100%; height: 460px; display: inline-block; vertical-align: top; position: relative; background: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-
-.overlay { position: relative; }
-
-.overlay:before { position: absolute; content: " "; top: 0; left: 0; width: 100%; height: 100%; display: block; z-index: 0; opacity: .4; }
-
-.overlay:hover:before { display: block; opacity: .7; }
-
-.location * { position: relative; /* hack */ -webkit-transition: opacity .5s ease-in; -moz-transition: opacity .5s ease-in; -o-transition: opacity .5s ease-in; -ms-transition: opacity .5s ease-in; transition: opacity .5s ease-in; }
-
-.invisible { opacity: .2; }
-
-@media only screen and (max-width: 800px) { .location { height: 400px; }
-  .overlay:before { opacity: .7; }
-  .item-name { bottom: 76px; } }
-.about-copy { margin-bottom: 80px !important; width: 80%; margin: auto; }
-
-.note { margin-bottom: 100px; }
-
-.body { font-family: "leitura-news", serif; font-size: 20px; line-height: 1.6; color: #32393B; }
-.body a { color: inherit; text-decoration: none; border-bottom: 2px solid #DBBA88; }
-
-.left-text { font-size: 26px; font-family: "acumin-pro", "helvetica", sans-serif; color: gray; }
-
-.person h2 { font-family: "acumin-pro", "helvetica", sans-serif; font-size: 30px; color: #32393B; margin-bottom: 10px; }
-.person .image { display: inline-block; float: left; width: 140px; height: 140px; background: url(../imgs/me.jpg) center center; background-size: contain; margin-right: 40px; border-radius: 100%; }
-.person p { margin-bottom: 10px; }
-
-@media only screen and (max-width: 800px) { .body { font-size: 16px; }
-  .about-copy { margin-bottom: 40px; }
-  .left-text { margin-bottom: -10px; font-size: 20px; }
-  .about-intro h1 { font-size: 36px; margin-top: 120px; margin-bottom: 80px; } }
-
-
+#three { margin-top: -150px; }

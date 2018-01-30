@@ -1,52 +1,30 @@
-.full {
+.intro {
+	max-width: 580px;
 	margin-top: 100px;
 }
-@media only screen and (max-width : $break) {
-	.full {
-		margin-top: 60px;
-	}
-}
-
-intro {
-
-	img {
-		width: 400px;
-	}	
-	h1 {
-		margin-left: 100px;
-		font-size: 60px;
-		margin-top: -54px;
-		color: #FF7087;
-	}
-}
-
-p {
-	margin-left: 100px;
-}
-
-.insta {
-	margin-top: 80px;
-}
 
 
-@media only screen and (max-width : $break) {
-	intro {
-		h1 {
-			margin-left: 0;
-			font-size: 34px;
-			margin-top: 30px;
-			margin-bottom: 0;
-		}
+.work-container {
+	width: 100%;
+	background: #FACACA;
+
 		img {
-			width: 200px;
-
+			padding: 20px;
+			margin-bottom: -8px;
 		}
-	}
-	p {
-		margin-left: 0;
-		margin-bottom: 60px;
-	}
-	.insta {
-		display: none;
-	}
+
+}
+
+.work-title {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+#two {
+	margin-top: 150px;
+}
+
+#three {
+	margin-top: -150px;
 }
