@@ -774,8 +774,8 @@
 		"oA": 0,
 		"oAP": "\/_core\/imgs\/example.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -957,6 +957,13 @@
 		"oAP": "\/config.rb",
 		"oF": 0
 		},
+	"\/example-post\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/example-post\/index.php",
+		"oF": 0
+		},
 	"\/favicon.png": {
 		"ft": 32768,
 		"iS": 2220,
@@ -985,7 +992,7 @@
 	"displayValue": "caracurtis",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/apple-touch-icon.png",
-	"lastBuiltDate": 539034510
+	"lastBuiltDate": 539638905
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
