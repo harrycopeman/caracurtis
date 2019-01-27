@@ -123,6 +123,13 @@ footer a:hover { color: #32393B; }
 @media (max-width: 700px) {
   .intro {
     margin-top: 0px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 700px) {
+  #site-intro {
+    margin-bottom: 80px;
   }
 }
 
@@ -140,15 +147,27 @@ footer a:hover { color: #32393B; }
     width: 1px;
     background: #e5e5ea;
 }
+@media (max-width: 700px) {
+  .article:before {
+    width: 0
+  }
+}
 
 .article {
   min-height: 450px;
+}
+
+@media (max-width: 700px) {
+  .article{
+    min-height: 200px;
+  }
 }
 
 .work-container { margin-top: -20px; width: 100%;  }
 .work-container img { padding: 0px; }
 
 .work-title { font-size: 20px; font-weight: 700; margin-top: 10px; margin-bottom: 10px; line-height: 1.4; }
+
 
 .sub {
   font-size: 14px;
@@ -184,4 +203,33 @@ footer a:hover { color: #32393B; }
   width: 100%;
 }
 
+
+@media (max-width: 700px) {
+  .loop-4{
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  #first-in-row{
+    margin-top: -80px;
+  }
+  }
+}
+
+@media (max-width: 700px) {
+  .work-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .image-source {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+}
 
